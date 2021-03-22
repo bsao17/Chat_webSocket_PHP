@@ -1,0 +1,13 @@
+{
+    "name": "phpratchet/phpratchet",
+    "description": "WebSocket PHP",
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "src/"
+        }
+    },
+    "require": {
+        "cboden/ratchet": "^0.4.3",
+        "ext-pdo": "*"
+    }
+}
